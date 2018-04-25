@@ -8,4 +8,4 @@ After cloning from git, go to the root folder and follow the following steps
 4. gunicorn --reload dev:api (Linux) OR 
 
 4. pip install waitress 
-   waitress-serve --port=8000 look:app (Windows)
+   waitress-serve --port=8000 dev:api (Windows)

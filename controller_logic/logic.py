@@ -2,7 +2,7 @@ import config
 import json
 
 
-import model
+from models import model
 
 def get_call():
 	rows = model.get_call_data()

@@ -2,7 +2,6 @@ import json
 
 from connectors import mysql
 import config
-from oto import response
 
 
 def get_call_data():

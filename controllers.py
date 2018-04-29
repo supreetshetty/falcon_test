@@ -8,7 +8,7 @@ class Controller:
     def on_get(self, req, resp):
         """Handles GET requests"""
         rows = logic.get_call()
-        resp.body = json.dumps(rows)
+        resp.body = rows
 
     def on_post(self, req, resp):
         """Handles POST requests"""
